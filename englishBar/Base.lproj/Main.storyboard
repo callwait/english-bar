@@ -61,7 +61,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="com_mashirov" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="englishBar" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -70,23 +70,13 @@
         <!--Quotes View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController storyboardIdentifier="QuotesViewController" id="XfG-lQ-9wD" customClass="QuotesViewController" customModule="com_mashirov" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="QuotesViewController" id="XfG-lQ-9wD" customClass="QuotesViewController" customModule="englishBar" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="258" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="258" height="354"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UHg-wo-BM2">
-                                <rect key="frame" x="18" y="211" width="49" height="32"/>
-                                <buttonCell key="cell" type="push" title="&lt;" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3xk-uI-WlK">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="previous:" target="XfG-lQ-9wD" id="AoJ-aU-Whn"/>
-                                </connections>
-                            </button>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Tl-zV-tSQ">
-                                <rect key="frame" x="192" y="211" width="49" height="32"/>
+                            <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Tl-zV-tSQ">
+                                <rect key="frame" x="206" y="318" width="49" height="32"/>
                                 <buttonCell key="cell" type="push" title="&gt;" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hf9-d3-DUd">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -95,8 +85,8 @@
                                     <action selector="next:" target="XfG-lQ-9wD" id="W8H-wS-ROW"/>
                                 </connections>
                             </button>
-                            <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="olH-CV-pRg">
-                                <rect key="frame" x="96" y="13" width="66" height="32"/>
+                            <button verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="olH-CV-pRg">
+                                <rect key="frame" x="96" y="-100" width="66" height="32"/>
                                 <buttonCell key="cell" type="push" title="Quit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ikm-Bp-UWc">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -106,7 +96,7 @@
                                 </connections>
                             </button>
                             <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" horizontalScrollElasticity="allowed" verticalScrollElasticity="allowed" translatesAutoresizingMaskIntoConstraints="NO" id="plM-iZ-Jaq">
-                                <rect key="frame" x="9" y="63" width="240" height="135"/>
+                                <rect key="frame" x="9" y="36" width="240" height="135"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <clipView key="contentView" ambiguous="YES" drawsBackground="NO" copiesOnScroll="NO" id="N1m-BL-c8B">
                                     <rect key="frame" x="0.0" y="0.0" width="240" height="135"/>
@@ -127,6 +117,25 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
+                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o4t-76-y4G">
+                                <rect key="frame" x="7" y="179" width="205" height="166"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <textFieldCell key="cell" selectable="YES" alignment="left" title="enExample" id="Jjf-qg-kYb">
+                                    <font key="font" metaFont="system" size="11"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UHg-wo-BM2">
+                                <rect key="frame" x="206" y="279" width="49" height="32"/>
+                                <buttonCell key="cell" type="push" title="&lt;" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="3xk-uI-WlK">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="previous:" target="XfG-lQ-9wD" id="AoJ-aU-Whn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="UHg-wo-BM2" firstAttribute="baseline" secondItem="4Tl-zV-tSQ" secondAttribute="baseline" id="XOV-v4-eq9"/>
@@ -137,12 +146,13 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="textExample" destination="o4t-76-y4G" id="Wf6-Px-7l5"/>
                         <outlet property="textLabel" destination="UZQ-p5-agL" id="BhA-8c-p8K"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="186" y="655"/>
+            <point key="canvasLocation" x="186" y="697"/>
         </scene>
     </scenes>
 </document>

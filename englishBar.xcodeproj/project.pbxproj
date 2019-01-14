@@ -7,35 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B58B786521EC4C840089EC7F /* IndexExpressionsData.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784321EC4C840089EC7F /* IndexExpressionsData.json */; };
-		B58B786621EC4C840089EC7F /* Passive.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784521EC4C840089EC7F /* Passive.json */; };
-		B58B786721EC4C840089EC7F /* Comparatives.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784621EC4C840089EC7F /* Comparatives.json */; };
-		B58B786821EC4C840089EC7F /* Misc.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784721EC4C840089EC7F /* Misc.json */; };
-		B58B786921EC4C840089EC7F /* Modals.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784821EC4C840089EC7F /* Modals.json */; };
-		B58B786A21EC4C840089EC7F /* Speaking.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784921EC4C840089EC7F /* Speaking.json */; };
-		B58B786B21EC4C840089EC7F /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784A21EC4C840089EC7F /* Questions.json */; };
-		B58B786C21EC4C840089EC7F /* Conditionals.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784B21EC4C840089EC7F /* Conditionals.json */; };
-		B58B786D21EC4C840089EC7F /* Prepositions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784C21EC4C840089EC7F /* Prepositions.json */; };
-		B58B786E21EC4C840089EC7F /* Adverbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784D21EC4C840089EC7F /* Adverbs.json */; };
-		B58B786F21EC4C840089EC7F /* Future.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784E21EC4C840089EC7F /* Future.json */; };
-		B58B787021EC4C840089EC7F /* PhrasalVerbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785021EC4C840089EC7F /* PhrasalVerbs.json */; };
-		B58B787121EC4C840089EC7F /* Idioms.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785221EC4C840089EC7F /* Idioms.json */; };
-		B58B787221EC4C840089EC7F /* ConnectedWords.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785321EC4C840089EC7F /* ConnectedWords.json */; };
-		B58B787321EC4C840089EC7F /* Agility.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785421EC4C840089EC7F /* Agility.json */; };
-		B58B787421EC4C840089EC7F /* IndexVocabularyData.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785521EC4C840089EC7F /* IndexVocabularyData.json */; };
-		B58B787521EC4C840089EC7F /* IndexPhrasalVerbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785621EC4C840089EC7F /* IndexPhrasalVerbs.json */; };
-		B58B787621EC4C840089EC7F /* Expressions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785821EC4C840089EC7F /* Expressions.json */; };
-		B58B787721EC4C840089EC7F /* IndexIdiomsData.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785921EC4C840089EC7F /* IndexIdiomsData.json */; };
-		B58B787821EC4C840089EC7F /* IndexGrammarData.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785A21EC4C840089EC7F /* IndexGrammarData.json */; };
-		B58B787921EC4C840089EC7F /* Misc.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785C21EC4C840089EC7F /* Misc.json */; };
-		B58B787A21EC4C840089EC7F /* Places.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785D21EC4C840089EC7F /* Places.json */; };
-		B58B787B21EC4C840089EC7F /* Food.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785E21EC4C840089EC7F /* Food.json */; };
-		B58B787C21EC4C840089EC7F /* Adjectives.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785F21EC4C840089EC7F /* Adjectives.json */; };
-		B58B787D21EC4C840089EC7F /* BodyParts.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786021EC4C840089EC7F /* BodyParts.json */; };
-		B58B787E21EC4C840089EC7F /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786121EC4C840089EC7F /* Animals.json */; };
-		B58B787F21EC4C840089EC7F /* Adverbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786221EC4C840089EC7F /* Adverbs.json */; };
-		B58B788021EC4C840089EC7F /* Objects.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786321EC4C840089EC7F /* Objects.json */; };
-		B58B788121EC4C840089EC7F /* Actions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786421EC4C840089EC7F /* Actions.json */; };
+		B58B78F221EC500F0089EC7F /* Passive.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78D121EC500F0089EC7F /* Passive.json */; };
+		B58B78F321EC500F0089EC7F /* Comparatives.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78D221EC500F0089EC7F /* Comparatives.json */; };
+		B58B78F421EC500F0089EC7F /* Misc.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78D321EC500F0089EC7F /* Misc.json */; };
+		B58B78F521EC500F0089EC7F /* Modals.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78D421EC500F0089EC7F /* Modals.json */; };
+		B58B78F621EC500F0089EC7F /* Speaking.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78D521EC500F0089EC7F /* Speaking.json */; };
+		B58B78F721EC500F0089EC7F /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78D621EC500F0089EC7F /* Questions.json */; };
+		B58B78F821EC500F0089EC7F /* Conditionals.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78D721EC500F0089EC7F /* Conditionals.json */; };
+		B58B78F921EC500F0089EC7F /* Prepositions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78D821EC500F0089EC7F /* Prepositions.json */; };
+		B58B78FA21EC500F0089EC7F /* Adverbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78D921EC500F0089EC7F /* Adverbs.json */; };
+		B58B78FB21EC500F0089EC7F /* Future.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78DA21EC500F0089EC7F /* Future.json */; };
+		B58B78FC21EC500F0089EC7F /* PhrasalVerbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78DC21EC500F0089EC7F /* PhrasalVerbs.json */; };
+		B58B78FE21EC500F0089EC7F /* ConnectedWords.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78DF21EC500F0089EC7F /* ConnectedWords.json */; };
+		B58B78FF21EC500F0089EC7F /* Agility.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78E021EC500F0089EC7F /* Agility.json */; };
+		B58B790221EC500F0089EC7F /* Expressions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78E421EC500F0089EC7F /* Expressions.json */; };
+		B58B790521EC500F0089EC7F /* MiscV.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78E821EC500F0089EC7F /* MiscV.json */; };
+		B58B790621EC500F0089EC7F /* Places.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78E921EC500F0089EC7F /* Places.json */; };
+		B58B790721EC500F0089EC7F /* Food.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78EA21EC500F0089EC7F /* Food.json */; };
+		B58B790821EC500F0089EC7F /* Adjectives.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78EB21EC500F0089EC7F /* Adjectives.json */; };
+		B58B790921EC500F0089EC7F /* BodyParts.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78EC21EC500F0089EC7F /* BodyParts.json */; };
+		B58B790A21EC500F0089EC7F /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78ED21EC500F0089EC7F /* Animals.json */; };
+		B58B790B21EC500F0089EC7F /* AdverbsV.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78EE21EC500F0089EC7F /* AdverbsV.json */; };
+		B58B790C21EC500F0089EC7F /* Objects.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78EF21EC500F0089EC7F /* Objects.json */; };
+		B58B790D21EC500F0089EC7F /* Actions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B78F021EC500F0089EC7F /* Actions.json */; };
+		B58B792C21EC55730089EC7F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58B792121EC54810089EC7F /* SwiftyJSON.framework */; };
 		B5D7A2A421EB49E500C8985C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7A2A321EB49E500C8985C /* AppDelegate.swift */; };
 		B5D7A2A821EB49E600C8985C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D7A2A721EB49E600C8985C /* Assets.xcassets */; };
 		B5D7A2AB21EB49E600C8985C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D7A2A921EB49E600C8985C /* Main.storyboard */; };
@@ -43,36 +38,84 @@
 		B5D7A2BA21EB541A00C8985C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7A2B921EB541A00C8985C /* Quote.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B58B791C21EC54810089EC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		B58B791E21EC54810089EC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		B58B792021EC54810089EC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON macOS";
+		};
+		B58B792221EC54810089EC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON macOS Tests";
+		};
+		B58B792421EC54810089EC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
+		};
+		B58B792621EC54810089EC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7236B4F61BAC14150020529B;
+			remoteInfo = "SwiftyJSON tvOS";
+		};
+		B58B792821EC54810089EC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
+			remoteInfo = "SwiftyJSON tvOS Tests";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		B58B784321EC4C840089EC7F /* IndexExpressionsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexExpressionsData.json; sourceTree = "<group>"; };
-		B58B784521EC4C840089EC7F /* Passive.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Passive.json; sourceTree = "<group>"; };
-		B58B784621EC4C840089EC7F /* Comparatives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comparatives.json; sourceTree = "<group>"; };
-		B58B784721EC4C840089EC7F /* Misc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Misc.json; sourceTree = "<group>"; };
-		B58B784821EC4C840089EC7F /* Modals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Modals.json; sourceTree = "<group>"; };
-		B58B784921EC4C840089EC7F /* Speaking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Speaking.json; sourceTree = "<group>"; };
-		B58B784A21EC4C840089EC7F /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
-		B58B784B21EC4C840089EC7F /* Conditionals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Conditionals.json; sourceTree = "<group>"; };
-		B58B784C21EC4C840089EC7F /* Prepositions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Prepositions.json; sourceTree = "<group>"; };
-		B58B784D21EC4C840089EC7F /* Adverbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Adverbs.json; sourceTree = "<group>"; };
-		B58B784E21EC4C840089EC7F /* Future.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Future.json; sourceTree = "<group>"; };
-		B58B785021EC4C840089EC7F /* PhrasalVerbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PhrasalVerbs.json; sourceTree = "<group>"; };
-		B58B785221EC4C840089EC7F /* Idioms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Idioms.json; sourceTree = "<group>"; };
-		B58B785321EC4C840089EC7F /* ConnectedWords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ConnectedWords.json; sourceTree = "<group>"; };
-		B58B785421EC4C840089EC7F /* Agility.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Agility.json; sourceTree = "<group>"; };
-		B58B785521EC4C840089EC7F /* IndexVocabularyData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexVocabularyData.json; sourceTree = "<group>"; };
-		B58B785621EC4C840089EC7F /* IndexPhrasalVerbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexPhrasalVerbs.json; sourceTree = "<group>"; };
-		B58B785821EC4C840089EC7F /* Expressions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Expressions.json; sourceTree = "<group>"; };
-		B58B785921EC4C840089EC7F /* IndexIdiomsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexIdiomsData.json; sourceTree = "<group>"; };
-		B58B785A21EC4C840089EC7F /* IndexGrammarData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexGrammarData.json; sourceTree = "<group>"; };
-		B58B785C21EC4C840089EC7F /* Misc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Misc.json; sourceTree = "<group>"; };
-		B58B785D21EC4C840089EC7F /* Places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Places.json; sourceTree = "<group>"; };
-		B58B785E21EC4C840089EC7F /* Food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Food.json; sourceTree = "<group>"; };
-		B58B785F21EC4C840089EC7F /* Adjectives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Adjectives.json; sourceTree = "<group>"; };
-		B58B786021EC4C840089EC7F /* BodyParts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BodyParts.json; sourceTree = "<group>"; };
-		B58B786121EC4C840089EC7F /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
-		B58B786221EC4C840089EC7F /* Adverbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Adverbs.json; sourceTree = "<group>"; };
-		B58B786321EC4C840089EC7F /* Objects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Objects.json; sourceTree = "<group>"; };
-		B58B786421EC4C840089EC7F /* Actions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Actions.json; sourceTree = "<group>"; };
+		B58B78D121EC500F0089EC7F /* Passive.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Passive.json; sourceTree = "<group>"; };
+		B58B78D221EC500F0089EC7F /* Comparatives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comparatives.json; sourceTree = "<group>"; };
+		B58B78D321EC500F0089EC7F /* Misc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Misc.json; sourceTree = "<group>"; };
+		B58B78D421EC500F0089EC7F /* Modals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Modals.json; sourceTree = "<group>"; };
+		B58B78D521EC500F0089EC7F /* Speaking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Speaking.json; sourceTree = "<group>"; };
+		B58B78D621EC500F0089EC7F /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
+		B58B78D721EC500F0089EC7F /* Conditionals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Conditionals.json; sourceTree = "<group>"; };
+		B58B78D821EC500F0089EC7F /* Prepositions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Prepositions.json; sourceTree = "<group>"; };
+		B58B78D921EC500F0089EC7F /* Adverbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Adverbs.json; sourceTree = "<group>"; };
+		B58B78DA21EC500F0089EC7F /* Future.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Future.json; sourceTree = "<group>"; };
+		B58B78DC21EC500F0089EC7F /* PhrasalVerbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PhrasalVerbs.json; sourceTree = "<group>"; };
+		B58B78DF21EC500F0089EC7F /* ConnectedWords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ConnectedWords.json; sourceTree = "<group>"; };
+		B58B78E021EC500F0089EC7F /* Agility.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Agility.json; sourceTree = "<group>"; };
+		B58B78E421EC500F0089EC7F /* Expressions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Expressions.json; sourceTree = "<group>"; };
+		B58B78E821EC500F0089EC7F /* MiscV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MiscV.json; sourceTree = "<group>"; };
+		B58B78E921EC500F0089EC7F /* Places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Places.json; sourceTree = "<group>"; };
+		B58B78EA21EC500F0089EC7F /* Food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Food.json; sourceTree = "<group>"; };
+		B58B78EB21EC500F0089EC7F /* Adjectives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Adjectives.json; sourceTree = "<group>"; };
+		B58B78EC21EC500F0089EC7F /* BodyParts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BodyParts.json; sourceTree = "<group>"; };
+		B58B78ED21EC500F0089EC7F /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
+		B58B78EE21EC500F0089EC7F /* AdverbsV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AdverbsV.json; sourceTree = "<group>"; };
+		B58B78EF21EC500F0089EC7F /* Objects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Objects.json; sourceTree = "<group>"; };
+		B58B78F021EC500F0089EC7F /* Actions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Actions.json; sourceTree = "<group>"; };
+		B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = englishBar/Carthage/Checkouts/SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = "<group>"; };
+		B58B792A21EC54BD0089EC7F /* SwiftyJSON.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = SwiftyJSON.xcworkspace; path = englishBar/Carthage/Checkouts/SwiftyJSON/SwiftyJSON.xcworkspace; sourceTree = "<group>"; };
 		B5D7A2A021EB49E500C8985C /* englishBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = englishBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D7A2A321EB49E500C8985C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5D7A2A721EB49E600C8985C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,86 +131,96 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B58B792C21EC55730089EC7F /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B58B784221EC4C840089EC7F /* Files */ = {
+		B58B78CE21EC500F0089EC7F /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				B58B784321EC4C840089EC7F /* IndexExpressionsData.json */,
-				B58B784421EC4C840089EC7F /* Grammar */,
-				B58B784F21EC4C840089EC7F /* PhrasalVerbs */,
-				B58B785121EC4C840089EC7F /* Idioms */,
-				B58B785321EC4C840089EC7F /* ConnectedWords.json */,
-				B58B785421EC4C840089EC7F /* Agility.json */,
-				B58B785521EC4C840089EC7F /* IndexVocabularyData.json */,
-				B58B785621EC4C840089EC7F /* IndexPhrasalVerbs.json */,
-				B58B785721EC4C840089EC7F /* Expressions */,
-				B58B785921EC4C840089EC7F /* IndexIdiomsData.json */,
-				B58B785A21EC4C840089EC7F /* IndexGrammarData.json */,
-				B58B785B21EC4C840089EC7F /* Vocabulary */,
+				B58B78D021EC500F0089EC7F /* Grammar */,
+				B58B78DB21EC500F0089EC7F /* PhrasalVerbs */,
+				B58B78DF21EC500F0089EC7F /* ConnectedWords.json */,
+				B58B78E021EC500F0089EC7F /* Agility.json */,
+				B58B78E321EC500F0089EC7F /* Expressions */,
+				B58B78E721EC500F0089EC7F /* Vocabulary */,
 			);
 			path = Files;
 			sourceTree = "<group>";
 		};
-		B58B784421EC4C840089EC7F /* Grammar */ = {
+		B58B78D021EC500F0089EC7F /* Grammar */ = {
 			isa = PBXGroup;
 			children = (
-				B58B784521EC4C840089EC7F /* Passive.json */,
-				B58B784621EC4C840089EC7F /* Comparatives.json */,
-				B58B784721EC4C840089EC7F /* Misc.json */,
-				B58B784821EC4C840089EC7F /* Modals.json */,
-				B58B784921EC4C840089EC7F /* Speaking.json */,
-				B58B784A21EC4C840089EC7F /* Questions.json */,
-				B58B784B21EC4C840089EC7F /* Conditionals.json */,
-				B58B784C21EC4C840089EC7F /* Prepositions.json */,
-				B58B784D21EC4C840089EC7F /* Adverbs.json */,
-				B58B784E21EC4C840089EC7F /* Future.json */,
+				B58B78D121EC500F0089EC7F /* Passive.json */,
+				B58B78D221EC500F0089EC7F /* Comparatives.json */,
+				B58B78D321EC500F0089EC7F /* Misc.json */,
+				B58B78D421EC500F0089EC7F /* Modals.json */,
+				B58B78D521EC500F0089EC7F /* Speaking.json */,
+				B58B78D621EC500F0089EC7F /* Questions.json */,
+				B58B78D721EC500F0089EC7F /* Conditionals.json */,
+				B58B78D821EC500F0089EC7F /* Prepositions.json */,
+				B58B78D921EC500F0089EC7F /* Adverbs.json */,
+				B58B78DA21EC500F0089EC7F /* Future.json */,
 			);
 			path = Grammar;
 			sourceTree = "<group>";
 		};
-		B58B784F21EC4C840089EC7F /* PhrasalVerbs */ = {
+		B58B78DB21EC500F0089EC7F /* PhrasalVerbs */ = {
 			isa = PBXGroup;
 			children = (
-				B58B785021EC4C840089EC7F /* PhrasalVerbs.json */,
+				B58B78DC21EC500F0089EC7F /* PhrasalVerbs.json */,
 			);
 			path = PhrasalVerbs;
 			sourceTree = "<group>";
 		};
-		B58B785121EC4C840089EC7F /* Idioms */ = {
+		B58B78E321EC500F0089EC7F /* Expressions */ = {
 			isa = PBXGroup;
 			children = (
-				B58B785221EC4C840089EC7F /* Idioms.json */,
-			);
-			path = Idioms;
-			sourceTree = "<group>";
-		};
-		B58B785721EC4C840089EC7F /* Expressions */ = {
-			isa = PBXGroup;
-			children = (
-				B58B785821EC4C840089EC7F /* Expressions.json */,
+				B58B78E421EC500F0089EC7F /* Expressions.json */,
 			);
 			path = Expressions;
 			sourceTree = "<group>";
 		};
-		B58B785B21EC4C840089EC7F /* Vocabulary */ = {
+		B58B78E721EC500F0089EC7F /* Vocabulary */ = {
 			isa = PBXGroup;
 			children = (
-				B58B785C21EC4C840089EC7F /* Misc.json */,
-				B58B785D21EC4C840089EC7F /* Places.json */,
-				B58B785E21EC4C840089EC7F /* Food.json */,
-				B58B785F21EC4C840089EC7F /* Adjectives.json */,
-				B58B786021EC4C840089EC7F /* BodyParts.json */,
-				B58B786121EC4C840089EC7F /* Animals.json */,
-				B58B786221EC4C840089EC7F /* Adverbs.json */,
-				B58B786321EC4C840089EC7F /* Objects.json */,
-				B58B786421EC4C840089EC7F /* Actions.json */,
+				B58B78E821EC500F0089EC7F /* MiscV.json */,
+				B58B78E921EC500F0089EC7F /* Places.json */,
+				B58B78EA21EC500F0089EC7F /* Food.json */,
+				B58B78EB21EC500F0089EC7F /* Adjectives.json */,
+				B58B78EC21EC500F0089EC7F /* BodyParts.json */,
+				B58B78ED21EC500F0089EC7F /* Animals.json */,
+				B58B78EE21EC500F0089EC7F /* AdverbsV.json */,
+				B58B78EF21EC500F0089EC7F /* Objects.json */,
+				B58B78F021EC500F0089EC7F /* Actions.json */,
 			);
 			path = Vocabulary;
+			sourceTree = "<group>";
+		};
+		B58B791021EC54810089EC7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B58B792A21EC54BD0089EC7F /* SwiftyJSON.xcworkspace */,
+				B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58B791221EC54810089EC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58B791D21EC54810089EC7F /* SwiftyJSON.framework */,
+				B58B791F21EC54810089EC7F /* SwiftyJSON iOS Tests.xctest */,
+				B58B792121EC54810089EC7F /* SwiftyJSON.framework */,
+				B58B792321EC54810089EC7F /* SwiftyJSON macOS Tests.xctest */,
+				B58B792521EC54810089EC7F /* SwiftyJSON.framework */,
+				B58B792721EC54810089EC7F /* SwiftyJSON.framework */,
+				B58B792921EC54810089EC7F /* SwiftyJSON tvOS Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B5D7A29721EB49E500C8985C = {
@@ -175,6 +228,7 @@
 			children = (
 				B5D7A2A221EB49E500C8985C /* englishBar */,
 				B5D7A2A121EB49E500C8985C /* Products */,
+				B58B791021EC54810089EC7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,7 +243,7 @@
 		B5D7A2A221EB49E500C8985C /* englishBar */ = {
 			isa = PBXGroup;
 			children = (
-				B58B784221EC4C840089EC7F /* Files */,
+				B58B78CE21EC500F0089EC7F /* Files */,
 				B5D7A2A321EB49E500C8985C /* AppDelegate.swift */,
 				B5D7A2A721EB49E600C8985C /* Assets.xcassets */,
 				B5D7A2A921EB49E600C8985C /* Main.storyboard */,
@@ -247,6 +301,12 @@
 			mainGroup = B5D7A29721EB49E500C8985C;
 			productRefGroup = B5D7A2A121EB49E500C8985C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B58B791221EC54810089EC7F /* Products */;
+					ProjectRef = B58B791121EC54810089EC7F /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B5D7A29F21EB49E500C8985C /* englishBar */,
@@ -254,42 +314,88 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		B58B791D21EC54810089EC7F /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = B58B791C21EC54810089EC7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B58B791F21EC54810089EC7F /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = B58B791E21EC54810089EC7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B58B792121EC54810089EC7F /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = B58B792021EC54810089EC7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B58B792321EC54810089EC7F /* SwiftyJSON macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON macOS Tests.xctest";
+			remoteRef = B58B792221EC54810089EC7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B58B792521EC54810089EC7F /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = B58B792421EC54810089EC7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B58B792721EC54810089EC7F /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = B58B792621EC54810089EC7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B58B792921EC54810089EC7F /* SwiftyJSON tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON tvOS Tests.xctest";
+			remoteRef = B58B792821EC54810089EC7F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		B5D7A29E21EB49E500C8985C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58B787121EC4C840089EC7F /* Idioms.json in Resources */,
-				B58B787E21EC4C840089EC7F /* Animals.json in Resources */,
-				B58B787C21EC4C840089EC7F /* Adjectives.json in Resources */,
-				B58B787521EC4C840089EC7F /* IndexPhrasalVerbs.json in Resources */,
+				B58B790A21EC500F0089EC7F /* Animals.json in Resources */,
+				B58B790821EC500F0089EC7F /* Adjectives.json in Resources */,
 				B5D7A2A821EB49E600C8985C /* Assets.xcassets in Resources */,
-				B58B787A21EC4C840089EC7F /* Places.json in Resources */,
-				B58B786721EC4C840089EC7F /* Comparatives.json in Resources */,
-				B58B787821EC4C840089EC7F /* IndexGrammarData.json in Resources */,
-				B58B787F21EC4C840089EC7F /* Adverbs.json in Resources */,
-				B58B786521EC4C840089EC7F /* IndexExpressionsData.json in Resources */,
-				B58B786F21EC4C840089EC7F /* Future.json in Resources */,
-				B58B786E21EC4C840089EC7F /* Adverbs.json in Resources */,
-				B58B786D21EC4C840089EC7F /* Prepositions.json in Resources */,
-				B58B786821EC4C840089EC7F /* Misc.json in Resources */,
-				B58B786C21EC4C840089EC7F /* Conditionals.json in Resources */,
-				B58B787021EC4C840089EC7F /* PhrasalVerbs.json in Resources */,
-				B58B786B21EC4C840089EC7F /* Questions.json in Resources */,
-				B58B787B21EC4C840089EC7F /* Food.json in Resources */,
-				B58B787921EC4C840089EC7F /* Misc.json in Resources */,
-				B58B787D21EC4C840089EC7F /* BodyParts.json in Resources */,
-				B58B786921EC4C840089EC7F /* Modals.json in Resources */,
+				B58B790621EC500F0089EC7F /* Places.json in Resources */,
+				B58B78F321EC500F0089EC7F /* Comparatives.json in Resources */,
+				B58B790B21EC500F0089EC7F /* AdverbsV.json in Resources */,
+				B58B78FB21EC500F0089EC7F /* Future.json in Resources */,
+				B58B78FA21EC500F0089EC7F /* Adverbs.json in Resources */,
+				B58B78F921EC500F0089EC7F /* Prepositions.json in Resources */,
+				B58B78F421EC500F0089EC7F /* Misc.json in Resources */,
+				B58B78F821EC500F0089EC7F /* Conditionals.json in Resources */,
+				B58B78FC21EC500F0089EC7F /* PhrasalVerbs.json in Resources */,
+				B58B78F721EC500F0089EC7F /* Questions.json in Resources */,
+				B58B790721EC500F0089EC7F /* Food.json in Resources */,
+				B58B790521EC500F0089EC7F /* MiscV.json in Resources */,
+				B58B790921EC500F0089EC7F /* BodyParts.json in Resources */,
+				B58B78F521EC500F0089EC7F /* Modals.json in Resources */,
 				B5D7A2AB21EB49E600C8985C /* Main.storyboard in Resources */,
-				B58B787221EC4C840089EC7F /* ConnectedWords.json in Resources */,
-				B58B788121EC4C840089EC7F /* Actions.json in Resources */,
-				B58B787721EC4C840089EC7F /* IndexIdiomsData.json in Resources */,
-				B58B787621EC4C840089EC7F /* Expressions.json in Resources */,
-				B58B787321EC4C840089EC7F /* Agility.json in Resources */,
-				B58B788021EC4C840089EC7F /* Objects.json in Resources */,
-				B58B786621EC4C840089EC7F /* Passive.json in Resources */,
-				B58B787421EC4C840089EC7F /* IndexVocabularyData.json in Resources */,
-				B58B786A21EC4C840089EC7F /* Speaking.json in Resources */,
+				B58B78FE21EC500F0089EC7F /* ConnectedWords.json in Resources */,
+				B58B790D21EC500F0089EC7F /* Actions.json in Resources */,
+				B58B790221EC500F0089EC7F /* Expressions.json in Resources */,
+				B58B78FF21EC500F0089EC7F /* Agility.json in Resources */,
+				B58B790C21EC500F0089EC7F /* Objects.json in Resources */,
+				B58B78F221EC500F0089EC7F /* Passive.json in Resources */,
+				B58B78F621EC500F0089EC7F /* Speaking.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +555,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "konstt.com-mashirov";
+				PRODUCT_BUNDLE_IDENTIFIER = com.englishbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -470,7 +576,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "konstt.com-mashirov";
+				PRODUCT_BUNDLE_IDENTIFIER = com.englishbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;

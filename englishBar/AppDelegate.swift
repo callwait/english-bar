@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  com.mashirov
+//  englishBar
 //
-//  Created by Konstantin on 13/01/2019.
-//  Copyright © 2019 Konstantin. All rights reserved.
+//  Created by Konstantin Mashirov on 13/01/2019.
+//  Copyright © 2019 Konstantin Mashirov. All rights reserved.
 //
 
 import Cocoa
@@ -13,13 +13,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     let statusItem = NSStatusBar.system.statusItem(withLength:NSStatusItem.variableLength)
     let popover = NSPopover()
+    @objc dynamic var helloTitle = QuotesViewController.getTitle()
 
-    @objc func printQuote(_ sender: Any?) {
-        let quoteText = "Never put off until tomorrow what you can do the day after tomorrow."
-        let quoteAuthor = "Mark Twain"
-        
-        print("\(quoteText) — \(quoteAuthor)")
-    }
     
     @objc func togglePopover(_ sender: Any?) {
         if popover.isShown {
@@ -41,35 +36,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
-        
         if let button = statusItem.button {
-            //button.image = NSImage(named:NSImage.Name("StatusBarButtonImage"))
-            button.title = "Quote!"
-
-            //button.action = #selector(printQuote(_:))
+            button.title = helloTitle
             button.action = #selector(togglePopover(_:))
-
         }
         popover.contentViewController = QuotesViewController.freshController()
-
-        //constructMenu()
-
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
     
-    func constructMenu() {
-        let menu = NSMenu()
-        
-        menu.addItem(NSMenuItem(title: "Print Quote", action: #selector(AppDelegate.printQuote(_:)), keyEquivalent: "P"))
-        menu.addItem(NSMenuItem.separator())
-        menu.addItem(NSMenuItem(title: "Quit Quotes", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
-        
-        statusItem.menu = menu
+    func changeTitle(title: String) {
+        print("OK")
     }
 
-}
 
+}

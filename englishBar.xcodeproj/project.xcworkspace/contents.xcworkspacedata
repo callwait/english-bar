@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:/Users/konstantin/Work/swift/com.mashirov/englishBar/Files"
+      name = "Files">
+      <Group
+         location = "group:Grammar"
+         name = "Grammar">
+      </Group>
+      <Group
+         location = "group:PhrasalVerbs"
+         name = "PhrasalVerbs">
+      </Group>
+      <Group
+         location = "group:Idioms"
+         name = "Idioms">
+      </Group>
+      <Group
+         location = "group:Expressions"
+         name = "Expressions">
+      </Group>
+      <Group
+         location = "group:Vocabulary"
+         name = "Vocabulary">
+      </Group>
+   </Group>
    <FileRef
-      location = "self:/Users/konstantin/Work/swift/com.mashirov/englishBar.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>

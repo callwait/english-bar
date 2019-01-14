@@ -1,9 +1,9 @@
 //
 //  QuotesViewController.swift
-//  com.mashirov
+//  englishBar
 //
-//  Created by Konstantin on 13/01/2019.
-//  Copyright © 2019 Konstantin. All rights reserved.
+//  Created by Konstantin Mashirov on 13/01/2019.
+//  Copyright © 2019 Konstantin Mashirov. All rights reserved.
 //
 
 import Cocoa
@@ -11,10 +11,14 @@ import Cocoa
 class QuotesViewController: NSViewController {
 
     @IBOutlet var textLabel: NSTextView!
+    @IBOutlet var textExample: NSTextField!
     
+    let globalTitle: String = "Loading..."
     
-    let quotes = Quote.all
+    static var mainTitle = "123"
     
+    let quotes = Quote.getFromJson(name: "Objects")
+
     var currentQuoteIndex: Int = 0 {
         didSet {
             updateQuote()
@@ -26,10 +30,28 @@ class QuotesViewController: NSViewController {
         currentQuoteIndex = 0
     }
     
+    public static func getTitle() -> String {
+        return mainTitle
+    }
+
     func updateQuote() {
-
-
         textLabel.string = String(describing: quotes[currentQuoteIndex])
+        
+        var text = ""
+        
+        for (index,subJson) in quotes[currentQuoteIndex]["EnglishExamples"] {
+            let nextI: Int = Int(index)!
+            text += "\(nextI + 1). "
+            text +=  String(describing: subJson)
+            text += "\n\n"
+            print(subJson)
+        }
+        
+        textExample.stringValue = String(describing: text)
+        NSApplication.sharedApplication().changeTitle("zzz")
+
+
+
     }
     
 }
@@ -47,13 +69,9 @@ extension QuotesViewController {
         NSApplication.shared.terminate(sender)
     }
     
-    // MARK: Storyboard instantiation
     static func freshController() -> QuotesViewController {
-        //1.
         let storyboard = NSStoryboard(name: NSStoryboard.Name("Main"), bundle: nil)
-        //2.
         let identifier = NSStoryboard.SceneIdentifier("QuotesViewController")
-        //3.
         guard let viewcontroller = storyboard.instantiateController(withIdentifier: identifier) as? QuotesViewController else {
             fatalError("Why cant i find QuotesViewController? - Check Main.storyboard")
         }
