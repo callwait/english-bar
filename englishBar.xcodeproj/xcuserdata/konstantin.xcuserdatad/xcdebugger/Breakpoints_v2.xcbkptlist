@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "com.mashirov/QuotesViewController.swift"
+            timestampString = "569133308.430493"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; com_mashirov.QuotesViewController"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.790731"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; com_mashirov.QuotesViewController"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.7943439"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;com_mashirov.QuotesViewController&gt;"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.796267"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;com_mashirov.QuotesViewController&gt;"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.797924"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.__deallocating_deinit"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.79954"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "com.mashirov/QuotesViewController.swift"
+            timestampString = "569133308.4323"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "QuotesViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; com_mashirov.QuotesViewController"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.8116879"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; com_mashirov.QuotesViewController"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.8136359"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;com_mashirov.QuotesViewController&gt;"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.815835"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;com_mashirov.QuotesViewController&gt;"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.817759"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_mashirov.QuotesViewController.__deallocating_deinit"
+                  moduleName = "com.mashirov"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/konstantin/Work/swift/com.mashirov/com.mashirov/QuotesViewController.swift"
+                  timestampString = "569072725.820056"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

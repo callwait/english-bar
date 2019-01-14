@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:com.mashirov.xcodeproj">
+      location = "self:/Users/konstantin/Work/swift/com.mashirov/englishBar.xcodeproj">
    </FileRef>
 </Workspace>

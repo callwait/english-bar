@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58B786521EC4C840089EC7F /* IndexExpressionsData.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784321EC4C840089EC7F /* IndexExpressionsData.json */; };
+		B58B786621EC4C840089EC7F /* Passive.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784521EC4C840089EC7F /* Passive.json */; };
+		B58B786721EC4C840089EC7F /* Comparatives.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784621EC4C840089EC7F /* Comparatives.json */; };
+		B58B786821EC4C840089EC7F /* Misc.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784721EC4C840089EC7F /* Misc.json */; };
+		B58B786921EC4C840089EC7F /* Modals.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784821EC4C840089EC7F /* Modals.json */; };
+		B58B786A21EC4C840089EC7F /* Speaking.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784921EC4C840089EC7F /* Speaking.json */; };
+		B58B786B21EC4C840089EC7F /* Questions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784A21EC4C840089EC7F /* Questions.json */; };
+		B58B786C21EC4C840089EC7F /* Conditionals.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784B21EC4C840089EC7F /* Conditionals.json */; };
+		B58B786D21EC4C840089EC7F /* Prepositions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784C21EC4C840089EC7F /* Prepositions.json */; };
+		B58B786E21EC4C840089EC7F /* Adverbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784D21EC4C840089EC7F /* Adverbs.json */; };
+		B58B786F21EC4C840089EC7F /* Future.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B784E21EC4C840089EC7F /* Future.json */; };
+		B58B787021EC4C840089EC7F /* PhrasalVerbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785021EC4C840089EC7F /* PhrasalVerbs.json */; };
+		B58B787121EC4C840089EC7F /* Idioms.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785221EC4C840089EC7F /* Idioms.json */; };
+		B58B787221EC4C840089EC7F /* ConnectedWords.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785321EC4C840089EC7F /* ConnectedWords.json */; };
+		B58B787321EC4C840089EC7F /* Agility.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785421EC4C840089EC7F /* Agility.json */; };
+		B58B787421EC4C840089EC7F /* IndexVocabularyData.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785521EC4C840089EC7F /* IndexVocabularyData.json */; };
+		B58B787521EC4C840089EC7F /* IndexPhrasalVerbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785621EC4C840089EC7F /* IndexPhrasalVerbs.json */; };
+		B58B787621EC4C840089EC7F /* Expressions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785821EC4C840089EC7F /* Expressions.json */; };
+		B58B787721EC4C840089EC7F /* IndexIdiomsData.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785921EC4C840089EC7F /* IndexIdiomsData.json */; };
+		B58B787821EC4C840089EC7F /* IndexGrammarData.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785A21EC4C840089EC7F /* IndexGrammarData.json */; };
+		B58B787921EC4C840089EC7F /* Misc.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785C21EC4C840089EC7F /* Misc.json */; };
+		B58B787A21EC4C840089EC7F /* Places.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785D21EC4C840089EC7F /* Places.json */; };
+		B58B787B21EC4C840089EC7F /* Food.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785E21EC4C840089EC7F /* Food.json */; };
+		B58B787C21EC4C840089EC7F /* Adjectives.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B785F21EC4C840089EC7F /* Adjectives.json */; };
+		B58B787D21EC4C840089EC7F /* BodyParts.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786021EC4C840089EC7F /* BodyParts.json */; };
+		B58B787E21EC4C840089EC7F /* Animals.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786121EC4C840089EC7F /* Animals.json */; };
+		B58B787F21EC4C840089EC7F /* Adverbs.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786221EC4C840089EC7F /* Adverbs.json */; };
+		B58B788021EC4C840089EC7F /* Objects.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786321EC4C840089EC7F /* Objects.json */; };
+		B58B788121EC4C840089EC7F /* Actions.json in Resources */ = {isa = PBXBuildFile; fileRef = B58B786421EC4C840089EC7F /* Actions.json */; };
+		B5D7A2A421EB49E500C8985C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7A2A321EB49E500C8985C /* AppDelegate.swift */; };
+		B5D7A2A821EB49E600C8985C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D7A2A721EB49E600C8985C /* Assets.xcassets */; };
+		B5D7A2AB21EB49E600C8985C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D7A2A921EB49E600C8985C /* Main.storyboard */; };
+		B5D7A2B821EB524D00C8985C /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7A2B721EB524D00C8985C /* QuotesViewController.swift */; };
+		B5D7A2BA21EB541A00C8985C /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D7A2B921EB541A00C8985C /* Quote.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B58B784321EC4C840089EC7F /* IndexExpressionsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexExpressionsData.json; sourceTree = "<group>"; };
+		B58B784521EC4C840089EC7F /* Passive.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Passive.json; sourceTree = "<group>"; };
+		B58B784621EC4C840089EC7F /* Comparatives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Comparatives.json; sourceTree = "<group>"; };
+		B58B784721EC4C840089EC7F /* Misc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Misc.json; sourceTree = "<group>"; };
+		B58B784821EC4C840089EC7F /* Modals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Modals.json; sourceTree = "<group>"; };
+		B58B784921EC4C840089EC7F /* Speaking.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Speaking.json; sourceTree = "<group>"; };
+		B58B784A21EC4C840089EC7F /* Questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
+		B58B784B21EC4C840089EC7F /* Conditionals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Conditionals.json; sourceTree = "<group>"; };
+		B58B784C21EC4C840089EC7F /* Prepositions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Prepositions.json; sourceTree = "<group>"; };
+		B58B784D21EC4C840089EC7F /* Adverbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Adverbs.json; sourceTree = "<group>"; };
+		B58B784E21EC4C840089EC7F /* Future.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Future.json; sourceTree = "<group>"; };
+		B58B785021EC4C840089EC7F /* PhrasalVerbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PhrasalVerbs.json; sourceTree = "<group>"; };
+		B58B785221EC4C840089EC7F /* Idioms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Idioms.json; sourceTree = "<group>"; };
+		B58B785321EC4C840089EC7F /* ConnectedWords.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ConnectedWords.json; sourceTree = "<group>"; };
+		B58B785421EC4C840089EC7F /* Agility.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Agility.json; sourceTree = "<group>"; };
+		B58B785521EC4C840089EC7F /* IndexVocabularyData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexVocabularyData.json; sourceTree = "<group>"; };
+		B58B785621EC4C840089EC7F /* IndexPhrasalVerbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexPhrasalVerbs.json; sourceTree = "<group>"; };
+		B58B785821EC4C840089EC7F /* Expressions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Expressions.json; sourceTree = "<group>"; };
+		B58B785921EC4C840089EC7F /* IndexIdiomsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexIdiomsData.json; sourceTree = "<group>"; };
+		B58B785A21EC4C840089EC7F /* IndexGrammarData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IndexGrammarData.json; sourceTree = "<group>"; };
+		B58B785C21EC4C840089EC7F /* Misc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Misc.json; sourceTree = "<group>"; };
+		B58B785D21EC4C840089EC7F /* Places.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Places.json; sourceTree = "<group>"; };
+		B58B785E21EC4C840089EC7F /* Food.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Food.json; sourceTree = "<group>"; };
+		B58B785F21EC4C840089EC7F /* Adjectives.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Adjectives.json; sourceTree = "<group>"; };
+		B58B786021EC4C840089EC7F /* BodyParts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BodyParts.json; sourceTree = "<group>"; };
+		B58B786121EC4C840089EC7F /* Animals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Animals.json; sourceTree = "<group>"; };
+		B58B786221EC4C840089EC7F /* Adverbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Adverbs.json; sourceTree = "<group>"; };
+		B58B786321EC4C840089EC7F /* Objects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Objects.json; sourceTree = "<group>"; };
+		B58B786421EC4C840089EC7F /* Actions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Actions.json; sourceTree = "<group>"; };
+		B5D7A2A021EB49E500C8985C /* englishBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = englishBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D7A2A321EB49E500C8985C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5D7A2A721EB49E600C8985C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5D7A2AA21EB49E600C8985C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5D7A2AC21EB49E600C8985C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D7A2AD21EB49E600C8985C /* englishBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = englishBar.entitlements; sourceTree = "<group>"; };
+		B5D7A2B721EB524D00C8985C /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
+		B5D7A2B921EB541A00C8985C /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D7A29D21EB49E500C8985C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B58B784221EC4C840089EC7F /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				B58B784321EC4C840089EC7F /* IndexExpressionsData.json */,
+				B58B784421EC4C840089EC7F /* Grammar */,
+				B58B784F21EC4C840089EC7F /* PhrasalVerbs */,
+				B58B785121EC4C840089EC7F /* Idioms */,
+				B58B785321EC4C840089EC7F /* ConnectedWords.json */,
+				B58B785421EC4C840089EC7F /* Agility.json */,
+				B58B785521EC4C840089EC7F /* IndexVocabularyData.json */,
+				B58B785621EC4C840089EC7F /* IndexPhrasalVerbs.json */,
+				B58B785721EC4C840089EC7F /* Expressions */,
+				B58B785921EC4C840089EC7F /* IndexIdiomsData.json */,
+				B58B785A21EC4C840089EC7F /* IndexGrammarData.json */,
+				B58B785B21EC4C840089EC7F /* Vocabulary */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		B58B784421EC4C840089EC7F /* Grammar */ = {
+			isa = PBXGroup;
+			children = (
+				B58B784521EC4C840089EC7F /* Passive.json */,
+				B58B784621EC4C840089EC7F /* Comparatives.json */,
+				B58B784721EC4C840089EC7F /* Misc.json */,
+				B58B784821EC4C840089EC7F /* Modals.json */,
+				B58B784921EC4C840089EC7F /* Speaking.json */,
+				B58B784A21EC4C840089EC7F /* Questions.json */,
+				B58B784B21EC4C840089EC7F /* Conditionals.json */,
+				B58B784C21EC4C840089EC7F /* Prepositions.json */,
+				B58B784D21EC4C840089EC7F /* Adverbs.json */,
+				B58B784E21EC4C840089EC7F /* Future.json */,
+			);
+			path = Grammar;
+			sourceTree = "<group>";
+		};
+		B58B784F21EC4C840089EC7F /* PhrasalVerbs */ = {
+			isa = PBXGroup;
+			children = (
+				B58B785021EC4C840089EC7F /* PhrasalVerbs.json */,
+			);
+			path = PhrasalVerbs;
+			sourceTree = "<group>";
+		};
+		B58B785121EC4C840089EC7F /* Idioms */ = {
+			isa = PBXGroup;
+			children = (
+				B58B785221EC4C840089EC7F /* Idioms.json */,
+			);
+			path = Idioms;
+			sourceTree = "<group>";
+		};
+		B58B785721EC4C840089EC7F /* Expressions */ = {
+			isa = PBXGroup;
+			children = (
+				B58B785821EC4C840089EC7F /* Expressions.json */,
+			);
+			path = Expressions;
+			sourceTree = "<group>";
+		};
+		B58B785B21EC4C840089EC7F /* Vocabulary */ = {
+			isa = PBXGroup;
+			children = (
+				B58B785C21EC4C840089EC7F /* Misc.json */,
+				B58B785D21EC4C840089EC7F /* Places.json */,
+				B58B785E21EC4C840089EC7F /* Food.json */,
+				B58B785F21EC4C840089EC7F /* Adjectives.json */,
+				B58B786021EC4C840089EC7F /* BodyParts.json */,
+				B58B786121EC4C840089EC7F /* Animals.json */,
+				B58B786221EC4C840089EC7F /* Adverbs.json */,
+				B58B786321EC4C840089EC7F /* Objects.json */,
+				B58B786421EC4C840089EC7F /* Actions.json */,
+			);
+			path = Vocabulary;
+			sourceTree = "<group>";
+		};
+		B5D7A29721EB49E500C8985C = {
+			isa = PBXGroup;
+			children = (
+				B5D7A2A221EB49E500C8985C /* englishBar */,
+				B5D7A2A121EB49E500C8985C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D7A2A121EB49E500C8985C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D7A2A021EB49E500C8985C /* englishBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D7A2A221EB49E500C8985C /* englishBar */ = {
+			isa = PBXGroup;
+			children = (
+				B58B784221EC4C840089EC7F /* Files */,
+				B5D7A2A321EB49E500C8985C /* AppDelegate.swift */,
+				B5D7A2A721EB49E600C8985C /* Assets.xcassets */,
+				B5D7A2A921EB49E600C8985C /* Main.storyboard */,
+				B5D7A2B721EB524D00C8985C /* QuotesViewController.swift */,
+				B5D7A2AC21EB49E600C8985C /* Info.plist */,
+				B5D7A2AD21EB49E600C8985C /* englishBar.entitlements */,
+				B5D7A2B921EB541A00C8985C /* Quote.swift */,
+			);
+			path = englishBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D7A29F21EB49E500C8985C /* englishBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D7A2B021EB49E600C8985C /* Build configuration list for PBXNativeTarget "englishBar" */;
+			buildPhases = (
+				B5D7A29C21EB49E500C8985C /* Sources */,
+				B5D7A29D21EB49E500C8985C /* Frameworks */,
+				B5D7A29E21EB49E500C8985C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = englishBar;
+			productName = com.mashirov;
+			productReference = B5D7A2A021EB49E500C8985C /* englishBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D7A29821EB49E500C8985C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Konstantin;
+				TargetAttributes = {
+					B5D7A29F21EB49E500C8985C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B5D7A29B21EB49E500C8985C /* Build configuration list for PBXProject "englishBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5D7A29721EB49E500C8985C;
+			productRefGroup = B5D7A2A121EB49E500C8985C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D7A29F21EB49E500C8985C /* englishBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D7A29E21EB49E500C8985C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B787121EC4C840089EC7F /* Idioms.json in Resources */,
+				B58B787E21EC4C840089EC7F /* Animals.json in Resources */,
+				B58B787C21EC4C840089EC7F /* Adjectives.json in Resources */,
+				B58B787521EC4C840089EC7F /* IndexPhrasalVerbs.json in Resources */,
+				B5D7A2A821EB49E600C8985C /* Assets.xcassets in Resources */,
+				B58B787A21EC4C840089EC7F /* Places.json in Resources */,
+				B58B786721EC4C840089EC7F /* Comparatives.json in Resources */,
+				B58B787821EC4C840089EC7F /* IndexGrammarData.json in Resources */,
+				B58B787F21EC4C840089EC7F /* Adverbs.json in Resources */,
+				B58B786521EC4C840089EC7F /* IndexExpressionsData.json in Resources */,
+				B58B786F21EC4C840089EC7F /* Future.json in Resources */,
+				B58B786E21EC4C840089EC7F /* Adverbs.json in Resources */,
+				B58B786D21EC4C840089EC7F /* Prepositions.json in Resources */,
+				B58B786821EC4C840089EC7F /* Misc.json in Resources */,
+				B58B786C21EC4C840089EC7F /* Conditionals.json in Resources */,
+				B58B787021EC4C840089EC7F /* PhrasalVerbs.json in Resources */,
+				B58B786B21EC4C840089EC7F /* Questions.json in Resources */,
+				B58B787B21EC4C840089EC7F /* Food.json in Resources */,
+				B58B787921EC4C840089EC7F /* Misc.json in Resources */,
+				B58B787D21EC4C840089EC7F /* BodyParts.json in Resources */,
+				B58B786921EC4C840089EC7F /* Modals.json in Resources */,
+				B5D7A2AB21EB49E600C8985C /* Main.storyboard in Resources */,
+				B58B787221EC4C840089EC7F /* ConnectedWords.json in Resources */,
+				B58B788121EC4C840089EC7F /* Actions.json in Resources */,
+				B58B787721EC4C840089EC7F /* IndexIdiomsData.json in Resources */,
+				B58B787621EC4C840089EC7F /* Expressions.json in Resources */,
+				B58B787321EC4C840089EC7F /* Agility.json in Resources */,
+				B58B788021EC4C840089EC7F /* Objects.json in Resources */,
+				B58B786621EC4C840089EC7F /* Passive.json in Resources */,
+				B58B787421EC4C840089EC7F /* IndexVocabularyData.json in Resources */,
+				B58B786A21EC4C840089EC7F /* Speaking.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D7A29C21EB49E500C8985C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D7A2A421EB49E500C8985C /* AppDelegate.swift in Sources */,
+				B5D7A2BA21EB541A00C8985C /* Quote.swift in Sources */,
+				B5D7A2B821EB524D00C8985C /* QuotesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5D7A2A921EB49E600C8985C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D7A2AA21EB49E600C8985C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5D7A2AE21EB49E600C8985C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5D7A2AF21EB49E600C8985C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B5D7A2B121EB49E600C8985C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = englishBar/englishBar.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5LYDVJNHZ;
+				INFOPLIST_FILE = "$(SRCROOT)/englishBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "konstt.com-mashirov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		B5D7A2B221EB49E600C8985C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = englishBar/englishBar.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = A5LYDVJNHZ;
+				INFOPLIST_FILE = "$(SRCROOT)/englishBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "konstt.com-mashirov";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D7A29B21EB49E500C8985C /* Build configuration list for PBXProject "englishBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D7A2AE21EB49E600C8985C /* Debug */,
+				B5D7A2AF21EB49E600C8985C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D7A2B021EB49E600C8985C /* Build configuration list for PBXNativeTarget "englishBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D7A2B121EB49E600C8985C /* Debug */,
+				B5D7A2B221EB49E600C8985C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5D7A29821EB49E500C8985C /* Project object */;
+}
