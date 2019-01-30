@@ -36,13 +36,28 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        popover.contentViewController = QuotesViewController.freshController()
+
         if let button = statusItem.button {
             button.title = helloTitle
             button.action = #selector(togglePopover(_:))
         }
-        popover.contentViewController = QuotesViewController.freshController()
+        NotificationCenter.default.addObserver(self, selector: #selector(onDidReceiveData(_:)), name: .didReceiveData, object: nil)
+
     }
 
+    @objc func onDidReceiveData(_ notification:Notification) {
+        // Do something now
+        
+        if let data = notification.userInfo?["word"]
+        {
+            statusItem.button?.title = String(describing: data)
+            print("OK!!", data)
+
+        }
+        
+    }
+    
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
@@ -52,4 +67,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
 
+}
+
+extension Notification.Name {
+    static let didReceiveData = Notification.Name("didReceiveData")
+    static let didCompleteTask = Notification.Name("didCompleteTask")
+    static let completedLengthyDownload = Notification.Name("completedLengthyDownload")
 }

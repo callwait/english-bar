@@ -13,12 +13,9 @@ class QuotesViewController: NSViewController {
     @IBOutlet var textLabel: NSTextView!
     @IBOutlet var textExample: NSTextField!
     
-    let globalTitle: String = "Loading..."
-    
-    static var mainTitle = "123"
+    static var mainTitle = "Loading..."
     
     let quotes = Quote.getFromJson(name: "Objects")
-
     var currentQuoteIndex: Int = 0 {
         didSet {
             updateQuote()
@@ -31,11 +28,16 @@ class QuotesViewController: NSViewController {
     }
     
     public static func getTitle() -> String {
+       
         return mainTitle
     }
 
     func updateQuote() {
-        textLabel.string = String(describing: quotes[currentQuoteIndex])
+        
+        print ("UPDATE")
+        
+        //textLabel.string = String(describing: quotes[currentQuoteIndex])
+        let enWord = String(describing: quotes[currentQuoteIndex]["VocabularyWord"])
         
         var text = ""
         
@@ -48,10 +50,9 @@ class QuotesViewController: NSViewController {
         }
         
         textExample.stringValue = String(describing: text)
-        NSApplication.sharedApplication().changeTitle("zzz")
 
-
-
+        let scores = ["word": enWord]
+        NotificationCenter.default.post(name: .didReceiveData, object: nil, userInfo: scores)
     }
     
 }
